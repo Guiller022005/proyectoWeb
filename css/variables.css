@@ -1,0 +1,10 @@
+:root{
+    --color-1: #1e1d2b;
+    --color-2: #ff702a;
+    --color-3: #FFF;
+}
+
+@font-face {
+    font-family: text;
+    src: url(../storage/fonts/Poppins-Italic.ttf);
+}
