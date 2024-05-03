@@ -1,0 +1,85 @@
+@import url(variables.css);
+
+body {
+    background: var(--color-1);
+    font-family: text;
+}
+
+.rectangle h5, h1{
+    color: var(--color-2);
+    font-family: text;
+
+}
+.rectangle h5{
+    padding-left: 3vw;
+    font-size: 1.5rem;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 3px;
+    height: 30px;
+    align-items: center;
+    background: white;
+    border: 1px solid red;
+}
+.imags{
+    display: flex;
+    flex-direction: row;
+    margin-left: 93vw;
+    width: 100px;
+}
+.header img{
+
+    width: 490px;
+    height: 12px;
+}
+.img_first img{
+    position: absolute;
+    top: 30vh;
+    left: 55vw;
+    height: 560px;
+}
+.home{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    top: 80px;
+    color: var(--color-3);
+    padding-left: 70vw;
+    gap: 50px;
+}
+.home a{
+    text-decoration: none;
+    color: var(--color-3);
+}
+.menu{
+    width: 40px;
+    text-align: center;
+    padding: 0 2px;
+    border: 1px solid #2f9e44;
+}
+.title{
+    font-size: 5rem;
+    padding-top: 20vh;
+    padding-left: 10vw;
+    font-family: 'Poppins';
+}
+.info_principal{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10vw;
+    margin-top: 0vh;
+    gap: 30px;
+}
+.info_principal button{
+    height: 50px;
+    background: var(--color-2);
+    color: var(--color-3);
+    border: 1px solid #ff702a;
+    margin-top: 6vh;
+}
+.info_principal small{
+    font-size: 2rem;
+    color: var(--color-3);
+}
