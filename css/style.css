@@ -4,6 +4,11 @@ body {
     background: var(--color-1);
     font-family: text;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .rectangle h5, h1{
     color: var(--color-2);
@@ -86,4 +91,134 @@ body {
 .info_principal small{
     font-size: 2rem;
     color: var(--color-3);
+}
+
+/*aqui empieza la about*/
+
+.img_second img{
+    position: absolute;
+    margin-top: 30vh;
+    left: 3vw;
+    height: 560px;
+}
+.information_2{
+    position: absolute;
+    margin-top: 30vh;
+    left: 55vw;
+}
+.information_2 h1, p, button{
+    color: var(--color-3);
+}
+.information_2 p{
+    font-size: 1.5rem;
+    color: var(--color-3);
+}
+
+.information_2 h1{
+    font-size: 5rem;
+}
+
+.information_2 small{
+    font-size: 1.5rem;
+    color: var(--color-2);
+}
+.information_2 button{
+    height: 50px;
+    font-size: 2rem;
+    border: 1px solid #ff702a;
+    margin-top: 5px;
+    background: var(--color-2);
+}
+
+/*aqui empieza menu*/
+
+.section4{
+    /* border: 1px solid red; */
+    margin-top: 150vh;
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+}
+.titulo small{
+    color: var(--color-2);
+    font-size: 1.5rem;
+}
+.titulo h1{
+    color: var(--color-3);
+    font-size: 4rem;
+}
+.section5{
+    /* border: 1px solid red; */
+    margin-top: 5vh;
+}
+.bloque{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+.comida{
+    width: 20vw;
+    height: 55vh;
+    background: var(--color-4);
+    /* border: 1px solid green ; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.comida:hover{
+    background: purple;
+}
+.comida h3, p{
+    color: #000;
+
+}
+.comida small{
+    color: var(--color-2);
+}
+
+/*aqui empieza services*/
+.section6{
+    /* border: 1px solid red; */
+    margin-top: 100vh;
+    width: 50vw;
+    margin-left: 25vw;
+    text-align: center;
+}
+.titulo small{
+    color: var(--color-2);
+    font-size: 1.5rem;
+}
+.titulo h1{
+    color: var(--color-3);
+    font-size: 4rem;
+}
+.section7{
+    /* border: 1px solid red; */
+    margin-top: 5vh;
+}
+.bloque{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}
+.comida{
+    width: 20vw;
+    height: 55vh;
+    background: var(--color-4);
+    /* border: 1px solid green ; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.comida:hover{
+    background: purple;
+}
+.comida h3, p{
+    color: #000;
+
+}
+.comida small{
+    color: var(--color-2);
 }
