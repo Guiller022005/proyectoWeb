@@ -414,6 +414,23 @@ summary {
     .nav {
         display: none;
     }
+    .nav div {
+        padding: 2px; /* Añade algo de padding para que el área de hover sea más grande */
+    }
+    
+    .nav div:hover {
+        background-color: green;
+    }
+    .nav a {
+        color: var(--color-2);
+        text-decoration: none;
+        display: block; /* Asegura que el enlace tome el tamaño completo del div */
+    }
+    
+    .nav h2 {
+        color: inherit; /* Ensures the color of the h2 element is inherited from the a element */
+        margin: 0; /* Elimina el margen por defecto para centrar mejor el texto */
+    }
     #h {
         height: 60px;
     }
