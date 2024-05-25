@@ -181,11 +181,6 @@ summary {
     text-align: center;
 }
 
-.product__icon {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .product__text img {
     width: 15vw;
 }
